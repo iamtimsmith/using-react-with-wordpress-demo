@@ -1,13 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => (
   <nav className="navbar is-primary">
     <div className="container has-text-centered">
       <div className="navbar-brand">
         <p className="is-size-3">
-          <a href="/" className="has-text-white">
+          <Link to="/" className="has-text-white">
             Wordpress + React
-          </a>
+          </Link>
         </p>
       </div>
     </div>
